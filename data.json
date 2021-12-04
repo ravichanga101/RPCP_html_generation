@@ -1,0 +1,18 @@
+{
+    "pages": [
+        {
+            "page_name": "first",
+            "page_data": {
+                "title": "First Page",
+                "content": "This is the first page"
+            }
+        },
+        {
+            "page_name": "second",
+            "page_data": {
+                "title": "Second Page",
+                "content": "This is the second page"
+            }
+        }
+    ]
+}
