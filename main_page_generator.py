@@ -16,12 +16,15 @@ for json_file in json_files:
     # initialize variable
     row_count = 0
     tbl_tr = ''
-    # create table 
+    
+    # create table
+    print(data.items()) 
     for k,v in data.items():
       if row_count == 0 :
           tbl_tr += '<tr>'
           tbl_tr += "<td colspan='2'>"
-          tbl_tr += '<h3>'+v+'</h3>' # title
+          tbl_tr += '<h3>'+v+'</h3>'
+          tbl_tr += '<h3></h3>'
           tbl_tr += '</td>'
           tbl_tr += '</tr>'
       elif row_count == 1 :
